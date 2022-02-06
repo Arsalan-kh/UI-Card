@@ -75,8 +75,16 @@ p{
     background-color: #202427;
 }
 .card-img{
-    max-height: 18rem;
+    max-height: 20rem;
 }
+
+ @media only screen and (max-width: 540px) {
+    .card{
+     margin: 0 auto;
+        width: 70%;
+    }
+  
+  } 
 .CTA{
     border: none;
     border-radius: 35px;
